@@ -1,0 +1,97 @@
+/* Empty. Add your own CSS if you like */
+
+.button.button-energized {
+    height: 10px;
+}
+.button {
+    border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    color: #444;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 2px;
+    min-width: 52px;
+    min-height: 47px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    vertical-align: top;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 42px;
+    cursor: pointer;
+}
+
+.bar.bar-stable {
+    background-color: #003B64;
+}
+
+.bar.bar-stable .title {
+    color: #fff;
+}
+
+.theProduct {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    /* text-align: center;   */
+    font-size: 18px;
+}
+
+#pSlide {
+    text-align: center;
+    font-size: 18px;
+}
+
+strong {
+    color: #003B64;
+}
+
+.tabs {
+    background-color: #003B64;
+}
+
+.icon {
+    color: #fff;
+}
+
+ion-tabs.tabs-color-active-energized .tab-item {
+    color: #fff;
+}
+/*
+#cardHead{
+    background-color: rgba(0, 59, 100, 0.65);
+}
+*/
+
+#cardHead h2{
+         color: #003B64;   
+}
+
+/*
+#cardFoot{
+    background-color: rgba(0, 59, 100, 0.65);
+}
+*/
+#cardFoot p{
+/*color: #fff;*/
+}
+
+.fa {
+    color: #ffc900;
+}
+
+.item item-divider {
+    text-align: left;
+    color: blue;
+}

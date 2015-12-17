@@ -1,0 +1,81 @@
+/* Empty. Add your own CSS if you like */
+
+.button.button-energized{
+ height: 10px;   
+}
+.bar.bar-stable {
+ background-color: #003B64;
+}
+.bar.bar-stable .title {
+    color: #fff;
+}
+
+.theProduct{
+    
+ width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+h2{
+ text-align: center;   
+    font-size: 24px;
+}
+p{
+/* text-align: center;   */
+    font-size:18px;
+}
+
+
+
+.tabs{
+ background-color: #003B64;
+}
+ .icon{
+    color: #fff;
+}
+
+
+/*
+span:active{
+ color: #fff;   
+}
+*/
+
+
+ion-tabs.tabs-color-active-energized .tab-item {
+ color: #fff;   
+}
+
+
+
+
+/*
+<div class="card" ng-repeat="store in stores track by $index">
+            <div class="item item-divider">
+                <h2>{{store.longName}}</h2>
+            </div>
+            <div class="item item-text-wrap">
+                <p>City:{{store.city}}</p>
+                <p>Address:{{store.address}}</p>
+                <p>Phone:{{store.phone}}</p>
+                
+                
+            </div>
+            <div class="item item-divider">
+                <p>Hours: {{store.hours}}</p>
+            </div>
+        </div>
+
+
+*/
+
+.card{
+ background-color: blue;   
+}
+
+
+.item item-divider{
+ text-align: left;
+    color: blue;
+}

@@ -1,0 +1,33 @@
+<ion-view view-title="Stores">
+
+    <ion-content class="padding">
+        <div class="bar-bar header item-input-inset">
+            <label class="item-input-wrapper">
+                <i class="icon ion-ios-search placeholder-icon"></i>
+                <input type="search" placeholder="Search" ng-model="data.city" value={{data.city}}>
+            </label>
+            <button class="button button-energized" ng-click="getStores(data.city)">
+                GO
+            </button>
+        </div>
+
+
+        <div class="card" ng-repeat="store in stores track by $index">
+            <div class="item item-divider">
+                <h2>{{store.longName}}</h2>
+            </div>
+            <div class="item item-text-wrap">
+                <p>City: {{store.city}}</p>
+                <p>Address: {{store.address}}</p>
+                <p>Phone: {{store.phone}}</p>
+                
+                
+            </div>
+            <div class="item item-divider">
+                <p>Hours: {{store.hours}}</p>
+            </div>
+        </div>
+
+    </ion-content>
+
+</ion-view>
